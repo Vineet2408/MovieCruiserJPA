@@ -11,7 +11,8 @@ import org.springframework.context.annotation.ComponentScan;
  *
  */
 @SpringBootApplication
-@ComponentScan("com.cognizant.moviecuriser.controller","com.cognizant.moviecuriser.model","com.cognizant.moviecuriser.repository","com.cognizant.moviecuriser.service")
+@ComponentScan({"com.cognizant.moviecuriser.controller",
+"com.cognizant.moviecuriser.model","com.cognizant.moviecuriser.repository","com.cognizant.moviecuriser.service"})
 public class MoviecuriserApplication {
 private static final Logger LOGGER = org.slf4j.LoggerFactory.getLogger(MoviecuriserApplication.class);
 	public static void main(String[] args) {
